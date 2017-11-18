@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<?php include('header.html');?>
 	<style>
 		div.item {
     		vertical-align: top;
@@ -14,19 +13,6 @@
     		display: block;
 		}
 	</style>
-	<title>Maine Dog Adoption</title>
-	<center>
-		<font face="Arial" size="3" color="#000000">
-			<ul>
-				<li><a href=index.html>Home</a></li>
-				<li><a href=pets.html>Pets</a></li>
-				<li><a href=about.html>About</a></li>
-				<li><a href="#news">News</a></li>
-				<li><a href=contact.html>Contact</a></li>
-			</ul>
-		</font>	
-		<img src="images/headerlogo.png" alt="Header Logo" style="width:900px;height:300px;">
-	</center>
 </head>
 <body>
 	<font face="Arial" size="3" color="#000000">
@@ -37,24 +23,26 @@
 	</center>
 	<center>
 		<div class="item">
+    		<a href=pets/pluto.php>
     		<img src="images/dog1.jpg" alt="Dog 1" style="width:376px;height:200px;">
     		<span class="caption">
     			<p></p>
-    			<p>Dog 1</p>
+    			<p>Pluto</p>
     		</span>
+    		</a>
 		</div>
 		<div class="item">
     		<img src="images/dog2.jpg" alt="Dog 2" style="width:356px;height:200px;">
     		<span class="caption">
     			<p></p>
-    			<p>Dog 2</p>
+    			<p>Randolph</p>
     		</span>
 		</div>
 		<div class="item">
     		<img src="images/dog3.jpg" alt="Dog 3" style="width:389px;height:200px;">
     		<span class="caption">
     			<p></p>
-    			<p>Dog 3</p>
+    			<p>Daisy</p>
     		</span>
 		</div>
 	</center>
